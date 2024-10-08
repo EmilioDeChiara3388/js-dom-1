@@ -8,7 +8,9 @@ const imgEl = document.getElementById("lightbulb-off");
 const secondImgEl = document.getElementById("lightbulb-on");
 const buttonEl = document.querySelector(".button");
 const secondButtonEl = document.getElementById("off-button");
-const textButton = document.querySelector(".on-off");
+const textButton = document.querySelector(".on-off").textContent;
+//console.log(textButton);
+
 
 buttonEl.addEventListener("click", () => {
     if (textButton.includes("Accendi")){
