@@ -14,12 +14,12 @@ buttonEl.addEventListener("click", () => {
     secondImgEl.classList.remove("new-pick");
     buttonEl.classList.add("new-pick");
     secondButtonEl.classList.remove("new-pick");
-})
+});
 
 secondButtonEl.addEventListener("click", () => {
     imgEl.classList.remove("new-pick");
     secondImgEl.classList.add("new-pick");
     buttonEl.classList.remove("new-pick");
     secondButtonEl.classList.add("new-pick");
-})
+});
 
